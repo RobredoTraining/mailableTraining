@@ -15,6 +15,6 @@ class MailController extends Controller
 
     public function mailMe()
     {
-        Mail::to('pgrobredo7@gmail.com')->send(new ExampleMail('Pablo'));
+        Mail::to('pgrobredo@gmail.com')->send(new ExampleMail('Pablo'));
     }
 }
